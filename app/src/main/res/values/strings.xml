@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application EDPDM</string>
+    <string name="saludo">Hola Hector</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="button">cambiar dato</string>
+    <string name="buttonCuadro">Lanzar Cuadro</string>
+</resources>

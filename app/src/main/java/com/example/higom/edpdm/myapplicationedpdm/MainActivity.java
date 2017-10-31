@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //TextView campoTexto;
-    //EditText edText;
+    EditText edText;
     //ImageView image;
     Button boton;
 
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //edText.setText("cambiamos texto");
 
         boton = (Button)findViewById(R.id.button);
+        edText = (EditText)findViewById(R.id.editText);
         //boton2 = (Button)findViewById(R.id.button2);
 
         boton.setOnClickListener(this);
@@ -44,7 +45,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
 
             case R.id.button:
+                String dato = edText.getText().toString();
                 Intent intent = new Intent(MainActivity.this,secondActivity.class);
+                intent.putExtra("DATO",dato);
                 startActivity(intent);
                 break;
         }

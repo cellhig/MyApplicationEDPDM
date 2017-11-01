@@ -38,8 +38,15 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/linear"
     android:orientation="vertical"
-tools:context="com.example.higom.edpdm.myapplicationedpdm.MainActivity">
+    tools:context="com.example.higom.edpdm.myapplicationedpdm.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texto"
+        android:text="hola"/>
 
 <!--<TextView
     android:id="@+id/texto1"
@@ -72,16 +79,17 @@ tools:context="com.example.higom.edpdm.myapplicationedpdm.MainActivity">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/otracosa"/>-->
-    <EditText
+    <!--<EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="texto para enviar"/>
-    <Button
+        android:hint="texto para enviar"/>-->
+
+    <!--<Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nueva Activity"/>
+        android:text="Nueva Activity"/>-->
 
 <!--    <Button
         android:id="@+id/button2"
